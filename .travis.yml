@@ -3,5 +3,5 @@ service:
   - docker
 
 script:
-  - docker build -t zkfraoui/node
+  - docker build -t zkfraoui/node .
   - docker images zkfraoui/node
