@@ -1,0 +1,7 @@
+sudo: require
+service:
+  - docker
+
+script:
+  - docker build -t zkfraoui/node
+  - docker images zkfraoui/node
